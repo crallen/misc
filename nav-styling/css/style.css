@@ -1,0 +1,48 @@
+#container {
+	width: 1000px;
+	margin: 20px auto;
+}
+
+nav {
+	position: relative;
+	height: 50px;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+nav ul > li {
+	float: left;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	margin-left: 35px;
+	padding: 10px 5px 0 5px;
+	position: relative;
+	cursor: pointer;
+}
+
+nav ul > li.active {
+	color: #999;
+}
+
+nav .filler {
+	border-bottom: 1px solid #CCC;
+	width: 1000px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+nav .indicator {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #CCC;
+}
